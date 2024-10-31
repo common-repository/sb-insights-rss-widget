@@ -1,0 +1,84 @@
+#insight-samsung-feed-widget{
+    font-family: 'PT Sans', sans-serif;
+}
+
+#insight-samsung-feed-widget a:hover{
+    text-decoration: underline;
+}
+
+#insight-samsung-feed-widget .tab-holder{
+    /*border-color: #ebeaea;*/
+    border: 1px solid #eaeaea;
+}
+
+#insight-samsung-feed-widget .tab-box-header{
+    background-color: #525252;
+    padding: 30px 30px 30px 27px;
+    text-align: center;
+}
+
+#insight-samsung-feed-widget .tab-box-header a{
+    display: block;
+    margin: auto;
+}
+
+#insight-samsung-feed-widget .tab-box-header img{
+    height:auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+#insight-samsung-feed-widget .tabs-container{
+    background-color: #ffffff;
+}
+
+#insight-samsung-feed-widget .tabs-container .tab_content{
+    display: block;
+}
+
+#insight-samsung-feed-widget .tab-holder .tab_content .news-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#insight-samsung-feed-widget .tab-holder .tab_content .news-list li{
+    border-bottom: 1px solid #e2e2e2;
+    padding: 20px 15px;
+    overflow: hidden;
+}
+
+#insight-samsung-feed-widget .tab-holder .tab_content .news-list  li:last-child{
+    border-bottom: 0;
+}
+
+#insight-samsung-feed-widget .tab-holder .tab_content .news-list li .image{
+    float: left;
+    margin-right: 13px;
+    height: 50px;
+    width: 52px;
+}
+
+#insight-samsung-feed-widget .tab-holder .tab_content .news-list li .image img{
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+#insight-samsung-feed-widget .tab-holder .tab_content .news-list li .image img:hover{
+    opacity: 0.5;
+}
+
+#insight-samsung-feed-widget .tab-holder .tab_content .news-list .post-holder a{
+    color: #259ad4 !important;
+}
+
+#insight-samsung-feed-widget .tab-holder .tab_content .news-list .post-holder a,
+#insight-samsung-feed-widget .tab-holder .tab_content .news-list .post-holder .meta
+{
+    font-size: 13px;
+    line-height: 20px;
+    color: #525252;
+}
